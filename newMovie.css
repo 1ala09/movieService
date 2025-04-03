@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: calibri;
+    
+}
+body{
+    background: black;
+    color: white;
+}
+.bg{
+    width:300px;
+    margin: 10px;
+    background: #141414;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px silver solid;
+}
+.bg img{
+    width:100%;
+    height: auto;
+    border-radius: 10px;
+}
+.bg h2{
+    color: white;
+}
+#movieContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#info{
+    width: 21px;
+    height: 21px;
+    border-radius: 0;
+}
+#trending{
+    text-align: center;
+    color: white;
+}
+.cancel{
+    display: flex;
+    justify-content: flex-end;
+}
+.cancel button{
+    border: none;
+    background: transparent;
+    font-size: 1.8rem;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+.titleCont{
+    display: flex;
+    flex-direction: column;
+}
+.showdescrp{
+    background-color: black;
+    border-radius: 15px;
+    display: none;
+    width: 600px;
+    height: auto;
+    padding: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+.poster img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
