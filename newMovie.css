@@ -1,14 +1,13 @@
 *{
     box-sizing: border-box;
     font-family: calibri;
-    
 }
 body{
     background: black;
     color: white;
 }
 .bg{
-    width:300px;
+    width:230px;
     margin: 10px;
     background: #141414;
     padding-bottom: 30px;
@@ -21,6 +20,12 @@ body{
     width:100%;
     height: auto;
     border-radius: 10px;
+}
+.bg a{
+    text-decoration: none;
+}
+.hoverPoster:hover{
+    opacity: 0.8;
 }
 .bg h2{
     color: white;
@@ -74,4 +79,99 @@ body{
     width: 150px;
     height: auto;
     border-radius: 10px;
+}
+.pagination{
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    padding:  10px;
+    width: auto;
+}
+.paginationCont{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination ul{
+    display: flex;
+    margin: 0 10px;
+}
+
+.pagination ul li{
+    list-style: none;
+    margin: 0 5px;
+    width: 40px;
+    border-radius: 100px;
+}
+
+.pagination ul li button{
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    color: black;
+    border-radius: 100px;
+    transition: 0.2s;
+    font-weight: normal;
+}
+
+.pagination ul li button:hover,
+.pagination > button:hover,
+.pagination ul li .active_page{
+    background-color: grey;
+    color: white;
+}
+.pagination > button{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+    color: black;
+    transition: 0.2s;
+}
+
+.titleRate{
+    background-color: #141414;
+}
+.titleRate div{
+    margin: 20px;
+}
+.titleRateCont{
+    background-color: black;
+    padding: 20px 50px;
+}
+.moveSeparate{
+    display: flex;
+    justify-content: flex-end;
+}
+.rateIcon{
+    width: 19px;
+    height: 19px;
+}
+.posterDiv{
+    background-color: black;
+}
+.posterImgDiv{
+    width: 400px;
+    height: 500px;
+    border: 1px silver solid;
+}
+.genreDiv{
+    border: 1px silver solid;
+    border-radius: 50px;
+    margin:10px;
+    margin-left: 20px;
+    padding: 5px;
+    font-size:1.3rem;
+}
+
+.move{
+    font-size:1.5rem;
+}
+
+.sidebyside{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
 }
